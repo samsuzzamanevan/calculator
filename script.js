@@ -87,5 +87,5 @@ equal.addEventListener('click',function(){
 
             result.innerHTML = Number(inputOne.value) / Number(inputTwo.value)
         }
-    }
+    
 })
