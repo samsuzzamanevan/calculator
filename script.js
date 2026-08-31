@@ -84,10 +84,6 @@ equal.addEventListener('click',function(){
         result.innerHTML = Number(inputOne.value) * Number(inputTwo.value)
     }
     else if(operator.innerHTML == '/'){
-        if(inputTwo.innerHTML == 0 ){
-            result.innerHTML = 'cannot divide by zero'
-        }
-        else{
 
             result.innerHTML = Number(inputOne.value) / Number(inputTwo.value)
         }
